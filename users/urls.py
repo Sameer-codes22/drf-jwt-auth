@@ -3,7 +3,7 @@ from .views import RegisterView, LoginView, ProtectedView, LogoutView, TokenRefr
 
 urlpatterns = [
     path('register/', RegisterView.as_view(), name='register'),
-    path('login/', LoginView.as_view(), name='login'),
+    path('login/', LoginView.as_view(), name='loginsss'),
     path('logout/', LogoutView.as_view(), name='logout'),
     path('protected/', ProtectedView.as_view(), name='protected'),
     path('refreshtoken/', TokenRefreshView.as_view(), name='refreshtoken'),
